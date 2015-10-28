@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <com.rey.material.widget.TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mantén pulsado unos segundos el deslizador."/>
+
+    <com.rey.material.widget.TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtminutosPostponer"
+        android:gravity="center"
+        android:text="0 minutos"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#1DB2F5"
+        android:layout_marginLeft="5dp"/>
+
+    <com.rey.material.widget.Slider
+        android:id="@+id/sldPosponer"
+        style="@style/Material.Widget.Slider.Discrete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        app:sl_textSize="20dp"
+        app:sl_maxValue="59"
+        app:sl_minValue="0"
+        app:sl_secondaryColor="#1DB2F5"
+        app:sl_value="0"
+        app:sl_thumbBorderSize ="15dp"
+        android:layout_weight="0.05" />
+
+
+</LinearLayout>

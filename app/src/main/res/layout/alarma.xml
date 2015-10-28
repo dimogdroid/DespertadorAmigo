@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    card_view:cardCornerRadius="4dp"
+    card_view:cardElevation="4dp"
+    card_view:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFDE00" >
+
+            <TextView
+                android:id="@+id/nombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_centerHorizontal="true"
+                android:textColor="#FFFFFF"/>
+         </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1">
+
+
+            <RelativeLayout
+            android:id="@+id/repeticiones"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#6599FF" >
+                <TextView
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="52dp"
+                    android:layout_height="30dp"
+                    android:text="Lun"
+                    android:gravity="center"
+                    android:textColor="#FFFFFF"
+                    android:background="#6599FF"
+                    android:id="@+id/txtLun" />
+
+                <TextView
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="52dp"
+                    android:layout_height="30dp"
+                    android:text="Mar"
+                    android:gravity="center"
+                    android:textColor="#FFFFFF"
+                    android:background="#6599FF"
+                    android:id="@+id/txtMar"
+                    android:layout_toRightOf="@+id/txtLun"/>
+                <TextView
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="52dp"
+                    android:layout_height="30dp"
+                    android:text="Mie"
+                    android:gravity="center"
+                    android:textColor="#003366"
+                    android:background="#6599FF"
+                    android:id="@+id/txtMie"
+                    android:layout_below="@+id/txtLun"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <TextView
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="52dp"
+                    android:layout_height="30dp"
+                    android:text="Jue"
+                    android:gravity="center"
+                    android:textColor="#FFFFFF"
+                    android:background="#6599FF"
+                    android:id="@+id/txtJue"
+                    android:layout_alignTop="@+id/txtMie"
+                    android:layout_toRightOf="@+id/txtMie"
+                    android:layout_toEndOf="@+id/txtMie" />
+
+                <TextView
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="52dp"
+                    android:layout_height="30dp"
+                    android:text="Vie"
+                    android:gravity="center"
+                    android:textColor="#FFFFFF"
+                    android:background="#6599FF"
+                    android:id="@+id/txtVie"
+                    android:layout_below="@+id/txtMie"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <TextView
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="52dp"
+                    android:layout_height="30dp"
+                    android:text="Sab"
+                    android:gravity="center"
+                    android:textColor="#FFFFFF"
+                    android:background="#6599FF"
+                    android:id="@+id/txtSab"
+                    android:layout_below="@+id/txtMie"
+                    android:layout_toRightOf="@+id/txtMie"
+                    android:layout_toEndOf="@+id/txtMie" />
+
+                <TextView
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="52dp"
+                    android:layout_height="30dp"
+                    android:text="Dom"
+                    android:gravity="center"
+                    android:textColor="#FFFFFF"
+                    android:background="#6599FF"
+                    android:id="@+id/txtDom"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="159dp"
+                android:layout_height="match_parent"
+                android:background="#6599FF"
+                android:layout_toRightOf="@+id/repeticiones">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="55dp"
+
+                    android:textColor="#FFFFFF"
+                    android:id="@+id/hora"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#6599FF">
+
+                <com.rey.material.widget.Switch
+                    android:id="@+id/onoff"
+                    style="@style/Material.Widget.Switch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:checked="false"
+                    app:sw_thumbColor="@drawable/swt_color"
+                    app:sw_trackColor="#FFFFFF"
+                    android:layout_marginTop="25dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+
+
+                <ImageButton
+
+                    android:layout_width="40dp"
+                    android:layout_height="45dp"
+                    android:id="@+id/btnBorrar"
+                    android:background="#6599FF"
+                    android:src="@drawable/ic_action_action_delete"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@+id/btnEditar"
+                    android:layout_toEndOf="@+id/btnEditar" />
+
+                <ImageButton
+                    android:layout_width="40dp"
+                    android:layout_height="45dp"
+                    android:id="@+id/btnEditar"
+                    android:background="#6599FF"
+                    android:src="@drawable/ic_action_content_create"
+                    android:layout_alignTop="@+id/btnBorrar"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+
+            </RelativeLayout>
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

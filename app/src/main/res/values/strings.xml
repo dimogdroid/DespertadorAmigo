@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Despertador Amigo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="nombrealarma">Nombre de la alarma</string>
+
+    <string name="app_namerec">Desp. Amigo</string>
+    <string name="anadir">Añadir</string>
+    <string name="configuracion">Configuración</string>
+    <string name="nuevaalarma">Nueva Alarma</string>
+    <string name="modificaralarma">Modificar Alarma</string>
+    <string name="txtnombrealarmamed">Nombre de la Alarma</string>
+    <string name="txtnombrealarmapeq">Ninguno</string>
+    <string name="txthoramed">Hora</string>
+
+    <string name="txtrepetirmed">Repetir</string>
+    <string name="txtrepetirpeq">Nunca</string>
+    <string name="txtposponermed">Posponer</string>
+    <string name="txtposponerpeq">Tiempo a posponer la alarma.</string>
+    <string name="txttonomed">Tono</string>
+    <string name="txttonopeq">Tu música para despertar.</string>
+    <string name="txtvibracion">Vibración</string>
+    <string name="txttiempo">Tiempo</string>
+
+    <string name="txttrafico">Tráfico</string>
+
+    <string name="txtrecordatoriomed">Recordatorio</string>
+    <string name="txtrecordatoriopeq">Frase a recordar</string>
+    <string name="txtsantoral">Santoral</string>
+
+    <string name="txtaceptar">Aceptar</string>
+    <string name="txtcancelar">Cancelar</string>
+    <string name="editar">Editar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="si">Sí</string>
+    <string name="pregborrar">¿Desea eliminar esta alarma?</string>
+    <string name="preferencias">Preferencias</string>
+    <string name="error_not_found">Página no encontrada</string>
+    <string name="error_unahthorized">Usuario y/o contraseña incorrecta</string>
+    <string name="error_no_connection">offline</string>
+    <string name="error_connection_rejected">connection refused</string>
+    <string name="error_no_data">No se obtuvieron datos</string>
+    <string name="error_unknown_error">An unknown error occurred</string>
+    <string name="error_reading_error">Error leyendo respuesta</string>
+    <string name="version">Version: </string>
+    <string name="changelog_title">Cambios &#8230;</string>
+    <string name="about_msg">Gracias por descargarte la aplicación </string>
+    <string name="about_msg1"> Si quieres conocer más sobre ella, por favor visita:</string>
+    <string name="about_msg2">Para cualquier sugerencia, duda, idea, Error:</string>
+    <string name="about_msg3">Diseño de Iconos realizado por Curro C. </string>
+    <string name="volumen">Asigne el volumen de la alarma.</string>
+    <string name="about_app_name">Despertador Amigo</string>
+    <string name="about_contact_button_1">Web</string>
+    <string name="about_contact_button_1_url">http://dimogdroid.wordpress.com/</string>
+    <string name="about_contact_button_2">\@DimogDroid</string>
+    <string name="about_contact_button_2_url">https://twitter.com/dimogaru</string>
+    <string name="about_mail_subject">Una Buena Aplicación</string>
+    <string name="about_mail_body">Mira esta applicación, parece interesante.</string>
+    <string name="about_facebook_url">http://dimogdroid.wordpress.com/</string>
+    <string name="about_facebook_title">Despertador Amigo</string>
+    <string name="about_twitter_msg">Check this #androin application</string>
+    <string name="about_problem_msg">Si tienes algún problema, por favor, contacta conmigo.</string>
+    <string name="about_problem_dialog_button">Enviar E-mail</string>
+    <string name="about_problem_mail">DimogDroid@gmail.com</string>
+    <string name="about_problem_subject">Despertador Amigo.</string>
+    <string name="about_contact_title">Contacto</string>
+    <string name="about_contact_license">Licencia</string>
+    <string name="about_apps_title">Aplicaciones</string>
+    <string name="about_comments_title">Comentarios</string>
+    <string name="about_comments_like">Me gusta %s</string>
+    <string name="about_comments_problem">Tengo un problema</string>
+    <string name="about_comments_getpro">Obten la versión PRO</string>
+    <string name="about_comments_pro_comming_soon">Próximamente</string>
+    <string name="about_comments_pro_title">Características de la versión PRO</string>
+    <string name="about_comments_like_market">Envía un comentario</string>
+    <string name="about_comments_like_email">Comparte por correo</string>
+    <string name="about_comments_like_facebook">Comparte en facebook</string>
+    <string name="about_comments_like_twitter">Comparte en Twitter</string>
+    <string name="escuchar">Escuchar</string>
+    <string name="conexiones">Conexiones</string>
+    <string name="notificaciones">Notificaciones</string>
+    <string name="tamano">Tamaño</string>
+    <string name="volument">Volumen Tono</string>
+    <string name="volumenv">Volumen Voz</string>
+    <string name="tiempotono">Tiempo hasta sonar la voz</string>
+    <string name="color">Color</string>
+    <string name="brillo">Brillo</string>
+
+</resources>
